@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MOKEPON</title>
+        
+        <script src="./js/mokepon.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <section id="seleccionar-mascota">
+
+            <h1 id="" class="titulo">Mokepon</h1>        
+            <h2 class="Subtitulo">Elige a tu mascota:</h2>
+
+            <div class="tarjetas">
+
+            <label class="tarjeta-de-mokepon-c" for="Cloro">
+                <p>Cloro</p>
+                <img src="./assets/clorito - Editado.png"alt="Imagen de Cloro">
+            </label>
+
+            <input type="radio" name="mascota" id="Cloro"/>
+
+            <label class="tarjeta-de-mokepon-t" for="Tosca">
+                <p>Tosca</p>
+                <img src="./assets/brbr - Editado.png"alt="Imagen de tosca">
+            </label>
+
+            <input type="radio" name="mascota" id="Tosca"/>
+
+            <label class="tarjeta-de-mokepon-p" for="Puchito">
+                <p>Puchito</p>
+                <img src="./assets/puchito - Editado.png"alt="Imagen de Puchito">
+            </label>
+            <input type="radio" name="mascota" id="Puchito"/>
+            
+        
+            </div>
+
+                <button id="boton-mascotas">Seleccionar</button>
+        </section>
+        <section id="seleccionar-ataque" class="seleccionar-ataque">
+            <h2 class="Subtitulo">Elige tu ataque:</h2>
+            <p id="vidas">Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p id="vidas">Tu enemigo <span id="mascota-enemigo"></span> tiene <span id="vidas-enemigo">3</span> vidas</p>
+            <p >
+                <button id="ataque-fuego"> Fuego 🔥 </button>
+                <button id="ataque-agua"> Agua 💧 </button>
+                <button id="ataque-tierra"> Tierra 🌱 </button>
+            </p>
+
+        </section>
+
+        <section id="mensajes">
+    
+        </section>
+        <section id="reiniciar">
+            <button id="reiniciar-juego">Jugar de nuevo</button>
+        </section>
+    </body>
+</html>
